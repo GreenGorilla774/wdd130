@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+
+         <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Brad Wilcox</td>
+            <td><a href="https://speeches.byu.edu/talks/brad-wilcox/his-grace-is-sufficient/" target="_blank">"His Grace is sufficient"</a></td>
+            <td>BYU Provo</td>
+            <td>July 12, 2011</td>
+          </tr>
+          <tr>
+            <td>Jeffrey R. Holland</td>
+            <td>"A Robe, a Ring, and a Fatted Calf"</td>
+            <td>BYU Provo</td>
+            <td>January 31, 1984</td>
+          </tr>
+          <tr>
+            <td>Jeffrey R. Holland</td>
+            <td>"Of Souls, Symbols, and Sacraments"</td>
+            <td>BYU Provo</td>
+            <td>January 12, 1988</td>
+          </tr>
+          <tr>
+            <td>W. Bradford Wilcox</td>
+            <td>"Mammon or Marriage?"</td>
+            <td>BYU Provo</td>
+            <td>November 28, 2023</td>
+          </tr>
+         </table><br>
+
+         <h2>Add another Devotional:</h2>
+         <form>
+          <label for="devo_speaker">Devotional speaker:</label><br>
+          <input type="text" id="devo_speaker" name="devo_speaker"><br><br>
+
+          <label for="devo_name">Name of Devotional</label><br>
+          <input type="text" id="devo_name" name="devo_name"><br><br>
+
+          <label for="devo_location">Location of devotional</label><br>
+          <input type="text" id="devo_location" name="devo_location"><br><br>
+
+          <label for="devo_year">Year of devotional</label><br>
+          <input type="text" id="devo_year" name="devo_year"><br><br>
+          <input type="submit" value="submit">
+         </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

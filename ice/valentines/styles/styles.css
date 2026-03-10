@@ -1,0 +1,66 @@
+/* Add your CSS here to style your valentines day page */
+
+main {
+    position: relative;
+}
+
+body {
+    background-color: pink;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 20px 10px;
+    font-size: x-large;
+    color: white;
+    padding: 25px;
+}
+
+li:hover {
+   color: white; 
+   background-color: palevioletred;
+}
+
+
+main h1{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: white;
+}
+
+main img {
+    width: 100%;
+    display: block;
+}
+
+main section {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  margin-top: -500px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: palevioletred;
+}
+
+
