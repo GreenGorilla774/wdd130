@@ -191,3 +191,24 @@ footer a:hover {
     color: #85CBEB;
 }
 
+#report {
+    border: 3px solid #003BC0;
+    border-radius: 20px;
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 10px 10px #a5adaf;
+}
+
+#report h1 {
+    text-decoration: underline;
+    
+
+}
+
+#report p {
+    font-size: larger;
+    width: 70%;
+    margin: 20px auto;
+
+}
